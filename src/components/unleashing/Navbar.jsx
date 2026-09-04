@@ -1,18 +1,19 @@
 import React from 'react';
+import { User } from 'lucide-react';
 
 export default function Navbar({
-  themeColor = '#87359f',
+  themeColor = '#016c8f',
   centerLabel = '',
   onLogoClick,
-  onCourseClick,
-  onStartCourseClick,
+  onProfileClick,
+  onStartClick,
 }) {
   return (
     <header className="ub-nav">
       <div className="ub-nav-logo" onClick={onLogoClick}>
-        <span className="logo-top" style={{ color: themeColor }}>THE COURSE</span>
+        <span className="logo-top" style={{ color: themeColor }}>MEDIKIOSK</span>
         <span className="logo-title" style={{ color: themeColor }}>
-          Unleashing your<br />best version
+          Clinical Intake<br />& Physician Summary
         </span>
       </div>
 
@@ -24,17 +25,50 @@ export default function Navbar({
       )}
 
       <div className="ub-nav-right" style={{ color: themeColor }}>
-        <span className="ub-nav-link" onClick={onCourseClick}>
-          THE COURSE
-        </span>
+        {/* Profile Avatar Button */}
+        <button
+          onClick={onProfileClick}
+          title="Patient Profile & Health Records"
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: '0.6rem',
+            background: 'rgba(255, 255, 255, 0.85)',
+            border: `1px solid ${themeColor}44`,
+            borderRadius: '9999px',
+            padding: '0.4rem 0.85rem 0.4rem 0.5rem',
+            cursor: 'pointer',
+            color: themeColor,
+            transition: 'all 0.25s ease',
+          }}
+        >
+          <div
+            style={{
+              width: '2rem',
+              height: '2rem',
+              borderRadius: '50%',
+              background: `${themeColor}22`,
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+            }}
+          >
+            <User size={15} color={themeColor} />
+          </div>
+          <span style={{ fontFamily: 'var(--font-sans-bold)', fontSize: '0.72rem', letterSpacing: '0.08em', textTransform: 'uppercase' }}>
+            Profile
+          </span>
+        </button>
+
+        {/* Start Assessment Pill Button */}
         <button
           className="ub-btn-pill"
           style={{ borderColor: themeColor, color: themeColor }}
-          onClick={onStartCourseClick}
+          onClick={onStartClick}
         >
           <div className="ub-btn-pill-text-wrap">
-            <span className="ub-btn-pill-text main">START COURSE</span>
-            <span className="ub-btn-pill-text hover-clone">START COURSE</span>
+            <span className="ub-btn-pill-text main">START ASSESSMENT</span>
+            <span className="ub-btn-pill-text hover-clone">START ASSESSMENT</span>
           </div>
         </button>
       </div>
