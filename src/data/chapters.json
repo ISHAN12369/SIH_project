@@ -1,0 +1,1124 @@
+[
+  {
+    "idx": "0",
+    "id": "01",
+    "title": "Well-Being",
+    "slug": "well-being",
+    "chapterNumber": "CHAPTER ∙ 01",
+    "colorStrong": "#35705b",
+    "colorLight": "#ddf3ec",
+    "purpose": "A BETTER AND MORE BALANCED LIFE",
+    "body": [
+      {
+        "primary": {
+          "id": null,
+          "caption": "We always knew we wanted to create an office experience that would really inspire the team, so to make that happen, we focused on building out a space plan that offered three different transitions throughout the space: communication, collaboration and thinking. I have to say, it’s pretty amazing to see how this new office has really come together and has supported productivity and collaboration and even more so to see how our team is truly thriving from it.",
+          "audio": {
+            "link_type": "Media",
+            "name": "avulsos_00_welbeing.mp3",
+            "kind": "document",
+            "url": "https://unleashing.cdn.prismic.io/unleashing/435939ad-4f70-4607-8a31-93870416e651_avulsos_00_welbeing.mp3",
+            "size": "483942"
+          },
+          "duration": "00:23",
+          "quote": "“Start identifying which pillars you have less satisfactory results or are not happy with, and start creating tasks that will help you get better results..”",
+          "playable": true
+        },
+        "items": [
+          {
+            "phrase": "As the course foundation, this topic will give you a better understanding",
+            "start": "0.2",
+            "duration": "3.9"
+          },
+          {
+            "phrase": "of how we can identify",
+            "start": "4",
+            "duration": "2"
+          },
+          {
+            "phrase": "align and treat the main pillars of your life",
+            "start": "6",
+            "duration": "3"
+          },
+          {
+            "phrase": "to avoid engaging in unnecessary problems.",
+            "start": "9",
+            "duration": "3"
+          },
+          {
+            "phrase": "So you can be more focused on improving your performance",
+            "start": "12.5",
+            "duration": "3"
+          },
+          {
+            "phrase": "and achieving better results",
+            "start": "16",
+            "duration": "1.3"
+          },
+          {
+            "phrase": "without sacrificing any essential areas of your life",
+            "start": "17.7",
+            "duration": "4.3"
+          },
+          {
+            "phrase": "because we truly deserve to achieve more than only an excellent career.",
+            "start": "21.75",
+            "duration": "4.3"
+          },
+          {
+            "phrase": "We do deserve to go further.",
+            "start": "27",
+            "duration": "2.3"
+          }
+        ],
+        "slice_type": "transcript",
+        "slice_label": null
+      },
+      {
+        "primary": {
+          "caption": "“ As the course foundation, this topic will give you a better understanding of how we can identify, align and treat the main pillars of your life to avoid engaging in unnecessary problems.\nSo you can be more focused on improving your performance and achieving better results without sacrificing any essential areas of your life because we truly deserve to achieve more than only an excellent career. We do deserve to go further. ”",
+          "video_cover": {
+            "dimensions": {
+              "width": 1200,
+              "height": 676
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/unleashing/7fa42451-2169-45ac-b221-ad520ef089b5_preview_video.jpg?auto=compress,format",
+            "mobile": {
+              "dimensions": {
+                "width": 460,
+                "height": 460
+              },
+              "alt": null,
+              "copyright": null,
+              "url": "https://images.prismic.io/unleashing/7fa42451-2169-45ac-b221-ad520ef089b5_preview_video.jpg?auto=compress,format&rect=262,0,676,676&w=460&h=460"
+            }
+          },
+          "video": {
+            "link_type": "Media",
+            "name": "tiny_caption_wellbeing.mp4",
+            "kind": "document",
+            "url": "https://unleashing.cdn.prismic.io/unleashing/f0e89359-6116-4f86-a419-0bd295c0e4a2_tiny_caption_wellbeing.mp4",
+            "size": "4100246"
+          },
+          "duration": "00:30",
+          "total_duration": "20:30",
+          "text": [
+            {
+              "type": "paragraph",
+              "text": "“Usually I use something called routine of excellence What's a routine of excellence? Routine of excellence is a daily-based commitment with the excellence is having a very well defined routine, and make very crystal clear the goals we need to achieve.”",
+              "spans": []
+            }
+          ]
+        },
+        "items": [
+          {},
+          {},
+          {}
+        ],
+        "slice_type": "caption_video",
+        "slice_label": null
+      },
+      {
+        "primary": {
+          "img0": {
+            "dimensions": {
+              "width": 800,
+              "height": 800
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/unleashing/367d242a-2117-486d-a2ae-0edb31651339_Screenshot+2022-06-14+at+7.16.58+PM.png?auto=compress,format&rect=0,32,487,487&w=800&h=800",
+            "mobile": {
+              "dimensions": {
+                "width": 400,
+                "height": 400
+              },
+              "alt": null,
+              "copyright": null,
+              "url": "https://images.prismic.io/unleashing/367d242a-2117-486d-a2ae-0edb31651339_Screenshot+2022-06-14+at+7.16.58+PM.png?auto=compress,format&rect=0,32,487,487&w=400&h=400"
+            }
+          },
+          "img1": {
+            "dimensions": {
+              "width": 800,
+              "height": 800
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/unleashing/489cb1b6-00ed-42e5-bd44-bb21e1203701_lt_green.jpg?auto=compress,format&rect=0,45,608,608&w=800&h=800",
+            "mobile": {
+              "dimensions": {
+                "width": 400,
+                "height": 400
+              },
+              "alt": null,
+              "copyright": null,
+              "url": "https://images.prismic.io/unleashing/489cb1b6-00ed-42e5-bd44-bb21e1203701_lt_green.jpg?auto=compress,format&rect=0,44,608,608&w=400&h=400"
+            }
+          },
+          "video_2": {
+            "link_type": "Media",
+            "name": "torn_green.mp4",
+            "kind": "document",
+            "url": "https://unleashing.cdn.prismic.io/unleashing/db6e7c61-7817-4eba-93e1-880f7e944f8c_torn_green.mp4",
+            "size": "886167"
+          },
+          "video": {
+            "link_type": "Media",
+            "name": "Grad_green_tiny.mp4",
+            "kind": "document",
+            "url": "https://unleashing.cdn.prismic.io/unleashing/5fcb9387-727e-4d56-8e21-5e042f44cbfe_Grad_green_tiny.mp4",
+            "size": "394414"
+          }
+        },
+        "items": [
+          {}
+        ],
+        "slice_type": "chap_medias",
+        "slice_label": null
+      },
+      {
+        "primary": {
+          "id": "oval-chap",
+          "invert": false
+        },
+        "items": [
+          {}
+        ],
+        "slice_type": "oval",
+        "slice_label": null
+      },
+      {
+        "primary": {
+          "subtitle": "THE CHAPTER",
+          "title": "BENEFITS",
+          "parag": [
+            {
+              "type": "paragraph",
+              "text": "This unit will help you identify and tackle areas in your life that should be addressed with urgency focusing on increasing happiness and avoiding unnecessary problems. After that, you will have better control over everything that happens in your life.",
+              "spans": []
+            }
+          ],
+          "link_org": null,
+          "link_title_org": null
+        },
+        "items": [
+          {}
+        ],
+        "slice_type": "organization",
+        "slice_label": null
+      },
+      {
+        "primary": {
+          "benefits_title": "HAPPINESS",
+          "bene0": "Achieving Goals",
+          "bene1": "Problems Avoidance",
+          "bene2": "Taking Actions"
+        },
+        "items": [
+          {}
+        ],
+        "slice_type": "benefits",
+        "slice_label": null
+      },
+      {
+        "primary": {
+          "id": "oval-chap invert",
+          "invert": true
+        },
+        "items": [
+          {}
+        ],
+        "slice_type": "oval",
+        "slice_label": null
+      }
+    ],
+    "next": {
+      "id": "Yod1rRMAACEAmnr-",
+      "type": "chapter",
+      "tags": [],
+      "lang": "en-ca",
+      "slug": "1",
+      "first_publication_date": "2022-05-20T11:04:16+0000",
+      "last_publication_date": "2022-06-19T18:16:27+0000",
+      "uid": "task-results",
+      "link_type": "Document",
+      "isBroken": false
+    }
+  },
+  {
+    "idx": "1",
+    "id": "02",
+    "title": "Tasks vs Results",
+    "slug": "task-results",
+    "chapterNumber": "CHAPTER ∙ 02",
+    "colorStrong": "#f57431",
+    "colorLight": "#fde3d5",
+    "purpose": "Going way further dodging unnecessary tasks",
+    "body": [
+      {
+        "primary": {
+          "id": "audio-tasks",
+          "caption": "CHAPTER PREVIEW",
+          "audio": {
+            "link_type": "Media",
+            "name": "avulsos_01_task_results.mp3",
+            "kind": "document",
+            "url": "https://unleashing.cdn.prismic.io/unleashing/da237e6f-e17a-4652-8f7d-fde2f8fc1495_avulsos_01_task_results.mp3",
+            "size": "431817"
+          },
+          "duration": null,
+          "quote": "“Sometimes the job is well done, but it doesn't take you anywhere. You might be asking how it's possible. Simple, your actions are not aligned with your goals. You need to understand your goals to be able to reach them.”",
+          "playable": true
+        },
+        "items": [
+          {
+            "phrase": "This chapter is fully dedicated to understanding how important it's to be efficient instead of busy.",
+            "start": "0",
+            "duration": "6.8"
+          },
+          {
+            "phrase": "With a detailed insight,",
+            "start": "7.5",
+            "duration": "1.9"
+          },
+          {
+            "phrase": "you will be aware of identifying if the tasks,",
+            "start": "10",
+            "duration": "3"
+          },
+          {
+            "phrase": "projects, and actions you have been applying in your life",
+            "start": "13.5",
+            "duration": "3"
+          },
+          {
+            "phrase": "are taking you to the next level.",
+            "start": "16.1",
+            "duration": "2.3"
+          },
+          {
+            "phrase": "Because certainly, you don't want to invest your time in doing things",
+            "start": "18.5",
+            "duration": "5"
+          },
+          {
+            "phrase": "that aren't aligned with your dreams and goals.",
+            "start": "23.1",
+            "duration": "3.5"
+          }
+        ],
+        "slice_type": "transcript",
+        "slice_label": null
+      },
+      {
+        "primary": {
+          "caption": "CHAPTER PREVIEW",
+          "video_cover": {
+            "mobile": {}
+          },
+          "video": {
+            "link_type": "Media",
+            "name": "tiny_caption_tasks.mp4",
+            "kind": "document",
+            "url": "https://unleashing.cdn.prismic.io/unleashing/d4ae7fef-73ea-431d-bcd2-394429660290_tiny_caption_tasks.mp4",
+            "size": "4845861"
+          },
+          "duration": "00:27",
+          "total_duration": "20:28",
+          "text": [
+            {
+              "type": "paragraph",
+              "text": "They might not understand being busy is not always something good, because getting things done depending on how, and what exactly you're doing might or might not take you walking toward your primary goal and maybe reach your dreams.",
+              "spans": []
+            }
+          ]
+        },
+        "items": [
+          {}
+        ],
+        "slice_type": "caption_video",
+        "slice_label": null
+      },
+      {
+        "primary": {
+          "img0": {
+            "dimensions": {
+              "width": 800,
+              "height": 800
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/unleashing/7df3963e-3b2c-4b39-b664-3cd16323b977_lt_orange.jpg?auto=compress,format&rect=0,45,608,608&w=800&h=800",
+            "mobile": {
+              "dimensions": {
+                "width": 400,
+                "height": 400
+              },
+              "alt": null,
+              "copyright": null,
+              "url": "https://images.prismic.io/unleashing/7df3963e-3b2c-4b39-b664-3cd16323b977_lt_orange.jpg?auto=compress,format&rect=0,44,608,608&w=400&h=400"
+            }
+          },
+          "img1": {
+            "dimensions": {
+              "width": 800,
+              "height": 800
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/unleashing/32c2cc64-757a-40e0-aafa-429edbf03728_lt_orange2.jpg?auto=compress,format&rect=0,45,608,608&w=800&h=800",
+            "mobile": {
+              "dimensions": {
+                "width": 400,
+                "height": 400
+              },
+              "alt": null,
+              "copyright": null,
+              "url": "https://images.prismic.io/unleashing/32c2cc64-757a-40e0-aafa-429edbf03728_lt_orange2.jpg?auto=compress,format&rect=0,44,608,608&w=400&h=400"
+            }
+          },
+          "video_2": {
+            "link_type": "Media",
+            "name": "torn_orange.mp4",
+            "kind": "document",
+            "url": "https://unleashing.cdn.prismic.io/unleashing/ff1a74ba-49aa-402f-baf8-e22cb44af352_torn_orange.mp4",
+            "size": "892857"
+          },
+          "video": {
+            "link_type": "Media",
+            "name": "Grad_Orange_tiny.mp4",
+            "kind": "document",
+            "url": "https://unleashing.cdn.prismic.io/unleashing/41141328-e6ce-4b85-9d6f-93b724a0118a_Grad_Orange_tiny.mp4",
+            "size": "393281"
+          }
+        },
+        "items": [
+          {}
+        ],
+        "slice_type": "chap_medias",
+        "slice_label": null
+      },
+      {
+        "primary": {
+          "id": "oval-chap",
+          "invert": false
+        },
+        "items": [
+          {}
+        ],
+        "slice_type": "oval",
+        "slice_label": null
+      },
+      {
+        "primary": {
+          "subtitle": "THE CHAPTER",
+          "title": "BENEFITS",
+          "parag": [
+            {
+              "type": "paragraph",
+              "text": "It's important to understand that being busy not always means being productive, and there is always the chance that you're working hard, but your work will not take you to the right place. This event usually happens because you didn't analyze your tasks carefully to see if they are aligned with your final goal.",
+              "spans": []
+            }
+          ],
+          "link_org": null,
+          "link_title_org": null
+        },
+        "items": [
+          {}
+        ],
+        "slice_type": "organization",
+        "slice_label": null
+      },
+      {
+        "primary": {
+          "benefits_title": "ACHIEVEMENTS",
+          "bene0": "Reaching Goals",
+          "bene1": "Faster Achievements",
+          "bene2": "Getting More Done"
+        },
+        "items": [
+          {}
+        ],
+        "slice_type": "benefits",
+        "slice_label": null
+      },
+      {
+        "primary": {
+          "id": "oval-chap invert",
+          "invert": true
+        },
+        "items": [
+          {}
+        ],
+        "slice_type": "oval",
+        "slice_label": null
+      }
+    ],
+    "next": {
+      "id": "YliJuRcAACYA-2y0",
+      "type": "chapter",
+      "tags": [],
+      "lang": "en-ca",
+      "slug": "2",
+      "first_publication_date": "2022-04-14T20:53:17+0000",
+      "last_publication_date": "2022-06-18T12:45:20+0000",
+      "uid": "successful-people",
+      "link_type": "Document",
+      "isBroken": false
+    }
+  },
+  {
+    "idx": "2",
+    "id": "03",
+    "title": "Successful People",
+    "slug": "successful-people",
+    "chapterNumber": "CHAPTER ∙ 03",
+    "colorStrong": "#016c8f",
+    "colorLight": "#cce1e8",
+    "purpose": "LEAVING THE COMFORT ZONE TO SUCCEED",
+    "body": [
+      {
+        "primary": {
+          "id": "In this chapter, I'm sharing some important daily keys that I use to and help me improve my performance and always put me on track. Giving me the motivation, focus, and ability to extract my best every single day. Also, some important examples are discussed to map essential actions that successful people apply in their life to become references and highlighted in their fields.",
+          "caption": null,
+          "audio": {
+            "link_type": "Media",
+            "name": "avulsos_03_people_who.mp3",
+            "kind": "document",
+            "url": "https://unleashing.cdn.prismic.io/unleashing/5ae50302-b0f9-4b76-8fc9-ae8365f268c8_avulsos_03_people_who.mp3",
+            "size": "497286"
+          },
+          "duration": "00:30",
+          "quote": "“The clock works in the way, giving 24 hours to everybody. Why dodo some people produce two or three times more than others?\nThis happens mainly because those people focus on goals, do what must be done, and ignore what only gives pleasure.”",
+          "playable": true
+        },
+        "items": [
+          {
+            "phrase": "In this chapter,",
+            "start": "0",
+            "duration": "1"
+          },
+          {
+            "phrase": "I'm sharing some important daily keys",
+            "start": "1.5",
+            "duration": "2"
+          },
+          {
+            "phrase": "that I use to and help me improve my performance",
+            "start": "4",
+            "duration": "3"
+          },
+          {
+            "phrase": "and always put me on track.",
+            "start": "7.2",
+            "duration": "2.1"
+          },
+          {
+            "phrase": "Giving me the motivation,",
+            "start": "9.75",
+            "duration": "2"
+          },
+          {
+            "phrase": "focus, and ability to extract my best every single day.",
+            "start": "11.5",
+            "duration": "5.1"
+          },
+          {
+            "phrase": "Also, some important examples are discussed",
+            "start": "17",
+            "duration": "3.5"
+          },
+          {
+            "phrase": "to map essential actions that",
+            "start": "21",
+            "duration": "3"
+          },
+          {
+            "phrase": "successful people apply in their life",
+            "start": "23.75",
+            "duration": "2.9"
+          },
+          {
+            "phrase": "to become references and highlighted in their fields.",
+            "start": "26.6",
+            "duration": "4"
+          }
+        ],
+        "slice_type": "transcript",
+        "slice_label": null
+      },
+      {
+        "primary": {
+          "caption": "CHAPTER PREVIEW",
+          "video_cover": {
+            "mobile": {}
+          },
+          "video": {
+            "link_type": "Media",
+            "name": "tiny_caption_peoplewho.mp4",
+            "kind": "document",
+            "url": "https://unleashing.cdn.prismic.io/unleashing/059e52c8-327b-45bf-93e7-02650e4ace1b_tiny_caption_peoplewho.mp4",
+            "size": "5823869"
+          },
+          "duration": "00:30",
+          "total_duration": "11:31",
+          "text": [
+            {
+              "type": "paragraph",
+              "text": "I do and I do well done! I try do with my best performance, with my best action, with my heart, with love, because at the end of the day I need to meet and to match the expectation of my clients. I need to stay in a position when my client looks at me and says: Victor I'm extremely happy with the results we achieved so far.",
+              "spans": []
+            }
+          ]
+        },
+        "items": [
+          {}
+        ],
+        "slice_type": "caption_video",
+        "slice_label": null
+      },
+      {
+        "primary": {
+          "img0": {
+            "dimensions": {
+              "width": 800,
+              "height": 800
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/unleashing/afb6f632-bd44-4727-8e2c-89b9d392a4aa_lt_blue.jpg?auto=compress,format&rect=0,45,608,608&w=800&h=800",
+            "mobile": {
+              "dimensions": {
+                "width": 400,
+                "height": 400
+              },
+              "alt": null,
+              "copyright": null,
+              "url": "https://images.prismic.io/unleashing/afb6f632-bd44-4727-8e2c-89b9d392a4aa_lt_blue.jpg?auto=compress,format&rect=0,44,608,608&w=400&h=400"
+            }
+          },
+          "img1": {
+            "dimensions": {
+              "width": 800,
+              "height": 800
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/unleashing/afb6f632-bd44-4727-8e2c-89b9d392a4aa_lt_blue.jpg?auto=compress,format&rect=0,45,608,608&w=800&h=800",
+            "mobile": {
+              "dimensions": {
+                "width": 400,
+                "height": 400
+              },
+              "alt": null,
+              "copyright": null,
+              "url": "https://images.prismic.io/unleashing/afb6f632-bd44-4727-8e2c-89b9d392a4aa_lt_blue.jpg?auto=compress,format&rect=0,44,608,608&w=400&h=400"
+            }
+          },
+          "video_2": {
+            "link_type": "Media",
+            "name": "torn_blue.mp4",
+            "kind": "document",
+            "url": "https://unleashing.cdn.prismic.io/unleashing/102bd260-0108-4c24-86fd-3cd613d3574b_torn_blue.mp4",
+            "size": "893066"
+          },
+          "video": {
+            "link_type": "Media",
+            "name": "Grad_blue_tiny.mp4",
+            "kind": "document",
+            "url": "https://unleashing.cdn.prismic.io/unleashing/a0f6d2af-ceb0-4a3f-9b9b-e578ad82b39f_Grad_blue_tiny.mp4",
+            "size": "401295"
+          }
+        },
+        "items": [
+          {}
+        ],
+        "slice_type": "chap_medias",
+        "slice_label": null
+      },
+      {
+        "primary": {
+          "id": "oval-chap",
+          "invert": false
+        },
+        "items": [
+          {}
+        ],
+        "slice_type": "oval",
+        "slice_label": null
+      },
+      {
+        "primary": {
+          "subtitle": "THE CHAPTER",
+          "title": "BENEFITS",
+          "parag": [
+            {
+              "type": "paragraph",
+              "text": "I do a million things, and I wouldn’t say I like them at all, but I do it with my maximum attention, with love, and I do well.  Because I know this will change somebody else life, it will help somebody to achieve their goal, and this is what matters at of the day.",
+              "spans": []
+            }
+          ],
+          "link_org": null,
+          "link_title_org": null
+        },
+        "items": [
+          {}
+        ],
+        "slice_type": "organization",
+        "slice_label": null
+      },
+      {
+        "primary": {
+          "benefits_title": "SUCCESS",
+          "bene0": "Winning Proscratination",
+          "bene1": "Breaking Boundaries",
+          "bene2": "Achieving Excellence"
+        },
+        "items": [
+          {}
+        ],
+        "slice_type": "benefits",
+        "slice_label": null
+      },
+      {
+        "primary": {
+          "id": "oval-chap invert",
+          "invert": true
+        },
+        "items": [
+          {}
+        ],
+        "slice_type": "oval",
+        "slice_label": null
+      }
+    ],
+    "next": {
+      "id": "Yod_NxMAACIAmqZW",
+      "type": "chapter",
+      "tags": [],
+      "lang": "en-ca",
+      "slug": "3",
+      "first_publication_date": "2022-05-20T11:44:58+0000",
+      "last_publication_date": "2022-06-19T18:15:54+0000",
+      "uid": "positioning",
+      "link_type": "Document",
+      "isBroken": false
+    }
+  },
+  {
+    "idx": "3",
+    "id": "04",
+    "title": "Positioning",
+    "slug": "positioning",
+    "chapterNumber": "CHAPTER ∙ 04",
+    "colorStrong": "#c74332",
+    "colorLight": "#f3d9d6",
+    "purpose": "WALKING TOWARD YOUR BEST VERSION",
+    "body": [
+      {
+        "primary": {
+          "id": "audio-positioning",
+          "caption": null,
+          "audio": {
+            "link_type": "Media",
+            "name": "avulsos_04_positioning.mp3",
+            "kind": "document",
+            "url": "https://unleashing.cdn.prismic.io/unleashing/b076c2c9-407b-4623-a822-2a1652ee6018_avulsos_04_positioning.mp3",
+            "size": "436404"
+          },
+          "duration": "00:26",
+          "quote": "“I understood that positioning is simply the key to getting me to the next of my career and my life.\nWithout knowing my space I usually tend to do things that I shouldn’t... ”",
+          "playable": true
+        },
+        "items": [
+          {
+            "phrase": "Understanding where you are, the place you're fulfilling, and where you should be",
+            "start": "0",
+            "duration": "5.4"
+          },
+          {
+            "phrase": "are the points addressed in this chapter.",
+            "start": "5.55",
+            "duration": "3"
+          },
+          {
+            "phrase": "Here we are focused on identifying if you're positioned in the right,",
+            "start": "8.8",
+            "duration": "5"
+          },
+          {
+            "phrase": "doing the right actions to move fast in the right direction",
+            "start": "14",
+            "duration": "3.55"
+          },
+          {
+            "phrase": "and then being closer to what we're looking for.",
+            "start": "17.8",
+            "duration": "3.5"
+          },
+          {
+            "phrase": "It's crucial not to waste time staying placed",
+            "start": "21.35",
+            "duration": "3.2"
+          },
+          {
+            "phrase": "where you shouldn't be.",
+            "start": "25.1",
+            "duration": "1.5"
+          }
+        ],
+        "slice_type": "transcript",
+        "slice_label": null
+      },
+      {
+        "primary": {
+          "caption": "CHAPTER PREVIEW",
+          "video_cover": {
+            "mobile": {}
+          },
+          "video": {
+            "link_type": "Media",
+            "name": "tiny_caption_positioning.mp4",
+            "kind": "document",
+            "url": "https://unleashing.cdn.prismic.io/unleashing/43ad65a2-3652-4c68-a1ad-c93c527d64ba_tiny_caption_positioning.mp4",
+            "size": "3528582"
+          },
+          "duration": "00:32",
+          "total_duration": "21:45",
+          "text": [
+            {
+              "type": "paragraph",
+              "text": "It's important! How can you move To different place, if you don't know what exactly like the space you're right now? When I talk like about like positioning, and how this is important so you can reach the next level is about direction and about walking toward something...",
+              "spans": []
+            }
+          ]
+        },
+        "items": [
+          {}
+        ],
+        "slice_type": "caption_video",
+        "slice_label": null
+      },
+      {
+        "primary": {
+          "img0": {
+            "dimensions": {
+              "width": 800,
+              "height": 800
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/unleashing/4ff525fd-464d-4b1a-b5bf-eb754cc8ca2a_lt_red.jpg?auto=compress,format&rect=0,45,608,608&w=800&h=800",
+            "mobile": {
+              "dimensions": {
+                "width": 400,
+                "height": 400
+              },
+              "alt": null,
+              "copyright": null,
+              "url": "https://images.prismic.io/unleashing/4ff525fd-464d-4b1a-b5bf-eb754cc8ca2a_lt_red.jpg?auto=compress,format&rect=0,44,608,608&w=400&h=400"
+            }
+          },
+          "img1": {
+            "dimensions": {
+              "width": 800,
+              "height": 800
+            },
+            "alt": null,
+            "copyright": null,
+            "url": "https://images.prismic.io/unleashing/4ff525fd-464d-4b1a-b5bf-eb754cc8ca2a_lt_red.jpg?auto=compress,format&rect=0,45,608,608&w=800&h=800",
+            "mobile": {
+              "dimensions": {
+                "width": 400,
+                "height": 400
+              },
+              "alt": null,
+              "copyright": null,
+              "url": "https://images.prismic.io/unleashing/4ff525fd-464d-4b1a-b5bf-eb754cc8ca2a_lt_red.jpg?auto=compress,format&rect=0,44,608,608&w=400&h=400"
+            }
+          },
+          "video_2": {
+            "link_type": "Media",
+            "name": "torn_red.mp4",
+            "kind": "document",
+            "url": "https://unleashing.cdn.prismic.io/unleashing/10152064-f1c3-4cd9-bb5c-0440002607a1_torn_red.mp4",
+            "size": "912947"
+          },
+          "video": {
+            "link_type": "Media",
+            "name": "Grad_red_tiny.mp4",
+            "kind": "document",
+            "url": "https://unleashing.cdn.prismic.io/unleashing/70bdb40a-7024-449b-963a-9e06c5fb94af_Grad_red_tiny.mp4",
+            "size": "403842"
+          }
+        },
+        "items": [
+          {}
+        ],
+        "slice_type": "chap_medias",
+        "slice_label": null
+      },
+      {
+        "primary": {
+          "id": "oval-chap",
+          "invert": false
+        },
+        "items": [
+          {}
+        ],
+        "slice_type": "oval",
+        "slice_label": null
+      },
+      {
+        "primary": {
+          "subtitle": "THE CHAPTER",
+          "title": "BENEFITS",
+          "parag": [
+            {
+              "type": "paragraph",
+              "text": "Occupying in the proper position in the right way is being effective, doing the right thing with passion, remembering my goal with the truth, and being humble. When I don’t fulfill my space, usually I don’t have the result, respect, and admiration that I'm looking for.",
+              "spans": []
+            }
+          ],
+          "link_org": null,
+          "link_title_org": null
+        },
+        "items": [
+          {}
+        ],
+        "slice_type": "organization",
+        "slice_label": null
+      },
+      {
+        "primary": {
+          "benefits_title": "EXCELLENCE",
+          "bene0": "Extreme Efficiency",
+          "bene1": "Faster Achievements",
+          "bene2": "Reaching Goals"
+        },
+        "items": [
+          {}
+        ],
+        "slice_type": "benefits",
+        "slice_label": null
+      },
+      {
+        "primary": {
+          "id": "oval-chap invert",
+          "invert": true
+        },
+        "items": [
+          {}
+        ],
+        "slice_type": "oval",
+        "slice_label": null
+      }
+    ],
+    "next": {
+      "id": "YoeBIBMAACEAmq76",
+      "type": "chapter",
+      "tags": [],
+      "lang": "en-ca",
+      "slug": "4",
+      "first_publication_date": "2022-05-20T11:53:08+0000",
+      "last_publication_date": "2022-06-19T18:15:40+0000",
+      "uid": "final-notes",
+      "link_type": "Document",
+      "isBroken": false
+    }
+  },
+  {
+    "idx": "4",
+    "id": "05",
+    "title": "Final Notes",
+    "slug": "final-notes",
+    "chapterNumber": "CHAPTER ∙ 05",
+    "colorStrong": "#87359f",
+    "colorLight": "#e7d6eb",
+    "purpose": "SOME KEY CONSIDERATION TO TAKE ACTIONS",
+    "body": [
+      {
+        "primary": {
+          "id": "audio-final-notes",
+          "caption": "Keeping in mind that this course has no visual components, it's a good practice to follow some considerations and suggestions on how you can extract better results from this talk. Following the composition above, you will find some key considerations that will help you attach, understand, and apply this course content in your life and start reaching your best version.",
+          "audio": {
+            "link_type": "Media",
+            "name": "05_final_notes.mp3",
+            "kind": "document",
+            "url": "https://unleashing.cdn.prismic.io/unleashing/a60ff935-7ba0-493d-9722-d870279588c1_05_final_notes.mp3",
+            "size": "498122"
+          },
+          "duration": null,
+          "quote": "“The primary goals of this course are to help you identify improvement opportunities, achieve significant changes in your life, and make this happen. You need to create a solid and straightforward plan that will require you to take actions.”",
+          "playable": true
+        },
+        "items": [
+          {
+            "phrase": "Keeping in mind that this course has no visual components",
+            "start": "0",
+            "duration": "4.1"
+          },
+          {
+            "phrase": "it's a good practice to follow some considerations and suggestions on how you can extract better results from this talk.",
+            "start": "4.5",
+            "duration": "10"
+          },
+          {
+            "phrase": "Following the composition above",
+            "start": "15",
+            "duration": "1.65"
+          },
+          {
+            "phrase": "you will find some key considerations that will help you attach",
+            "start": "17.2",
+            "duration": "5"
+          },
+          {
+            "phrase": "understand, and apply this course content in your life and start reaching your best version.",
+            "start": "22.7",
+            "duration": "8"
+          }
+        ],
+        "slice_type": "transcript",
+        "slice_label": null
+      },
+      {
+        "primary": {
+          "id": "oval-chap",
+          "invert": false
+        },
+        "items": [
+          {}
+        ],
+        "slice_type": "oval",
+        "slice_label": null
+      },
+      {
+        "primary": {
+          "subtitle": "THE NOTES",
+          "title": "CONSIDERATIONS",
+          "parag": [
+            {
+              "type": "paragraph",
+              "text": "The course was created to trigger you,  to make you reflect, think, and maybe rethink decisions and actions you're taking in your life. It's crucial to stop the video, take notes, and reflect on the questions during the course. Use a textbook to write down the question, answer them, and start making plans to change your life.",
+              "spans": []
+            }
+          ],
+          "link_org": null,
+          "link_title_org": null
+        },
+        "items": [
+          {}
+        ],
+        "slice_type": "organization",
+        "slice_label": null
+      },
+      {
+        "primary": {
+          "marquee_consid": "IMPORTANT NOTES"
+        },
+        "items": [
+          {
+            "color_title": "#308f6d",
+            "title": "ADJUST VIDEO SPEED.",
+            "text": [
+              {
+                "type": "paragraph",
+                "text": "Feel free to adjust the video speed if you believe it is too slow or too fast. I was focused on creating a more versatile and democratic course so more people could interact with the lessons. Thus, I used the strategy of speaking slowly, having in mind people like me who English is not my first language and want to better assimilate the message behind the course.",
+                "spans": []
+              }
+            ],
+            "video": {
+              "link_type": "Media",
+              "name": "Grad_green_tiny.mp4",
+              "kind": "document",
+              "url": "https://unleashing.cdn.prismic.io/unleashing/7b6f88f2-0700-46d7-9330-05e34b9e0b55_Grad_green_tiny.mp4",
+              "size": "394414"
+            }
+          },
+          {
+            "color_title": "#f57431",
+            "title": "TAKE NOTES AND ASK QUESTION.",
+            "text": [
+              {
+                "type": "paragraph",
+                "text": "The course was created to trigger you,  to make you reflect, think, and maybe rethink decisions and actions you're taking in your life. It's crucial to stop the video, take notes, and reflect on the questions during the course. Use a textbook to write down the question, answer them, and start making plans to change your life.",
+                "spans": []
+              }
+            ],
+            "video": {
+              "link_type": "Media",
+              "name": "Grad_Orange_tiny.mp4",
+              "kind": "document",
+              "url": "https://unleashing.cdn.prismic.io/unleashing/59624eb7-2238-40fc-8a1d-d16fa9b932be_Grad_Orange_tiny.mp4",
+              "size": "393281"
+            }
+          },
+          {
+            "color_title": "#0188b3",
+            "title": "TAKE ACTIONS TO START CHANGING.",
+            "text": [
+              {
+                "type": "paragraph",
+                "text": "The primary goals of this course are to help you identify improvement opportunities, achieve significant changes in your life, and make this happen. You need to create a solid and straightforward plan that will require you to take actions. Actions that will move you from point A to point B, and be more aware of how you can make this transition in a smooth and efficient way.",
+                "spans": []
+              }
+            ],
+            "video": {
+              "link_type": "Media",
+              "name": "Grad_blue_tiny.mp4",
+              "kind": "document",
+              "url": "https://unleashing.cdn.prismic.io/unleashing/a0f6d2af-ceb0-4a3f-9b9b-e578ad82b39f_Grad_blue_tiny.mp4",
+              "size": "401295"
+            }
+          },
+          {
+            "color_title": "#df3622",
+            "title": "ALLOW WITNESSES IN YOUR PLAN.",
+            "text": [
+              {
+                "type": "paragraph",
+                "text": "Sometimes in life, we need an extra push to get things done, and a friendly/healthy way to have this help is to involve witnesses in our life-changing decision because even knowing you're doing it for yourself and not for somebody else it will make you think two or three times before neglecting or even giving up your goal because your animal instinct might not allow you to feel defeated and judged by the person who you choose to be part of this journey with you.",
+                "spans": []
+              }
+            ],
+            "video": {
+              "link_type": "Media",
+              "name": "Grad_red_tiny.mp4",
+              "kind": "document",
+              "url": "https://unleashing.cdn.prismic.io/unleashing/70bdb40a-7024-449b-963a-9e06c5fb94af_Grad_red_tiny.mp4",
+              "size": "403842"
+            }
+          }
+        ],
+        "slice_type": "considerations",
+        "slice_label": null
+      },
+      {
+        "primary": {
+          "id": "oval-chap invert",
+          "invert": true
+        },
+        "items": [
+          {}
+        ],
+        "slice_type": "oval",
+        "slice_label": null
+      }
+    ],
+    "next": {
+      "id": "YliJkRcAACkA-2v6",
+      "type": "chapter",
+      "tags": [],
+      "lang": "en-ca",
+      "slug": "0",
+      "first_publication_date": "2022-04-14T20:52:38+0000",
+      "last_publication_date": "2022-06-19T18:16:40+0000",
+      "uid": "well-being",
+      "link_type": "Document",
+      "isBroken": false
+    }
+  }
+]

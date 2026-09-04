@@ -10,16 +10,29 @@ import ChatPage from './pages/ChatPage';
 import UploadPage from './pages/UploadPage';
 import SummaryPage from './pages/SummaryPage';
 
+import UnleashingPage from './pages/UnleashingPage';
+
 function AppLayout() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const location = useLocation();
 
-  const isPublicPage = location.pathname === '/' || location.pathname === '/auth';
+  const isUnleashingPage = location.pathname === '/' || location.pathname.startsWith('/chapter');
+
+  if (isUnleashingPage) {
+    return (
+      <Routes>
+        <Route path="/" element={<UnleashingPage />} />
+        <Route path="/chapter/:slug" element={<UnleashingPage />} />
+      </Routes>
+    );
+  }
+
+  const isPublicPage = location.pathname === '/medikiosk' || location.pathname === '/auth';
 
   if (isPublicPage) {
     return (
       <Routes>
-        <Route path="/" element={<LandingPage />} />
+        <Route path="/medikiosk" element={<LandingPage />} />
         <Route path="/auth" element={<AuthPage />} />
       </Routes>
     );

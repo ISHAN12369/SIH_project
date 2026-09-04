@@ -1,0 +1,886 @@
+/* ==========================================================================
+   UNLEASHING YOUR BEST VERSION — EXACT DESIGN & UX CLONE
+   Fonts: GrifinitoLMedium, HelveticaBd, HelveticaRegular, NM-Medium
+   Colors: 
+     Chapter 01 Well-Being: #35705b / #d6e2de
+     Chapter 02 Tasks vs Results: #f57431 / #fde3d5
+     Chapter 03 Successful People: #016c8f / #cce1e8
+     Chapter 04 Positioning: #c74332 / #f3d9d6
+     Chapter 05 Final Notes: #87359f / #e7d6eb
+   ========================================================================== */
+
+@font-face {
+  font-family: 'GrifinitoLMedium';
+  font-display: swap;
+  src: url('/fonts/GrifinitoL-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaRegular';
+  font-display: swap;
+  src: url('/fonts/HelveticaRegular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaBd';
+  font-display: swap;
+  src: url('/fonts/HelveticaBd.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NM-Medium';
+  font-display: swap;
+  src: url('/fonts/nm-medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+:root {
+  --font-serif: 'GrifinitoLMedium', serif, 'Times New Roman';
+  --font-sans: 'HelveticaRegular', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-sans-bold: 'HelveticaBd', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  
+  --color-green: #35705b;
+  --color-green-bg: #d6e2de;
+  
+  --color-orange: #f57431;
+  --color-orange-bg: #fde3d5;
+  
+  --color-blue: #016c8f;
+  --color-blue-bg: #cce1e8;
+  
+  --color-red: #c74332;
+  --color-red-bg: #f3d9d6;
+  
+  --color-purple: #87359f;
+  --color-purple-bg: #e7d6eb;
+
+  --theme-color: #016c8f;
+  --theme-bg: #cce1e8;
+}
+
+/* Unleashing Container */
+.unleashing-app {
+  font-family: var(--font-sans);
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  overflow-x: hidden;
+  background-color: #ffffff;
+  color: #111111;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  transition: background-color 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* ==========================================================================
+   NAVIGATION BAR
+   ========================================================================== */
+.ub-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2.5rem;
+  z-index: 50;
+  pointer-events: none;
+  background: transparent;
+  transition: all 0.4s ease;
+}
+
+.ub-nav * {
+  pointer-events: auto;
+}
+
+.ub-nav-logo {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.ub-nav-logo .logo-top {
+  font-family: var(--font-sans-bold);
+  font-size: 0.625rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: inherit;
+  line-height: 1;
+  margin-bottom: 0.2rem;
+}
+
+.ub-nav-logo .logo-title {
+  font-family: var(--font-serif);
+  font-size: 1.55rem;
+  line-height: 0.95;
+  letter-spacing: -0.01em;
+  color: inherit;
+  transition: color 0.4s ease;
+}
+
+.ub-nav-center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ub-nav-center .tick {
+  width: 1px;
+  height: 1.25rem;
+  background-color: currentColor;
+  margin-bottom: 0.4rem;
+  opacity: 0.7;
+}
+
+.ub-nav-center .label {
+  font-family: var(--font-sans-bold);
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: inherit;
+}
+
+.ub-nav-right {
+  display: flex;
+  align-items: center;
+  gap: 2.25rem;
+}
+
+.ub-nav-link {
+  font-family: var(--font-sans-bold);
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+  padding: 0.25rem 0;
+  transition: opacity 0.3s ease;
+}
+
+.ub-nav-link:hover {
+  opacity: 0.7;
+}
+
+/* START COURSE PILL BUTTON */
+.ub-btn-pill {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.7rem 1.8rem;
+  border-radius: 9999px;
+  border: 1px solid currentColor;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  overflow: hidden;
+  text-decoration: none;
+  transition: border-color 0.3s ease, background-color 0.3s ease, transform 0.25s ease;
+}
+
+.ub-btn-pill:hover {
+  transform: scale(1.02);
+}
+
+.ub-btn-pill-text-wrap {
+  position: relative;
+  height: 1rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.ub-btn-pill-text {
+  font-family: var(--font-sans-bold);
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  display: block;
+  transition: transform 0.45s cubic-bezier(0.76, 0, 0.24, 1), opacity 0.45s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.ub-btn-pill-text.hover-clone {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(150%);
+  opacity: 0;
+}
+
+.ub-btn-pill:hover .ub-btn-pill-text.main {
+  transform: translateY(-150%);
+  opacity: 0;
+}
+
+.ub-btn-pill:hover .ub-btn-pill-text.hover-clone {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* ==========================================================================
+   VIEW 1: HERO DOME ARCH (Screenshot 1)
+   ========================================================================== */
+.ub-hero-view {
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  background: #ffffff;
+  overflow: hidden;
+}
+
+/* Curved dome at the top */
+.ub-hero-dome-bg {
+  position: absolute;
+  top: 0;
+  left: -15vw;
+  width: 130vw;
+  height: 80vh;
+  background-color: #eee6f5;
+  border-radius: 0 0 50% 50% / 0 0 100% 100%;
+  z-index: 1;
+  pointer-events: none;
+  transition: background-color 0.6s ease;
+}
+
+.ub-hero-avatar-area {
+  position: relative;
+  z-index: 5;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ub-hero-avatar-ring {
+  position: relative;
+  width: 24rem;
+  height: 24rem;
+  border-radius: 50%;
+  border: 1.5px solid #87359f;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 0 10px 40px rgba(135, 53, 159, 0.08);
+}
+
+.ub-hero-avatar-inner {
+  position: absolute;
+  bottom: 0;
+  width: 18rem;
+  height: 18rem;
+  border-radius: 50% 50% 0 0;
+  background-color: #87359f;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.ub-hero-avatar-lottie {
+  width: 22rem;
+  height: 22rem;
+  position: relative;
+  bottom: -1rem;
+}
+
+/* ==========================================================================
+   VIEW 2: NEXT CHAPTER CAROUSEL (Screenshot 2)
+   ========================================================================== */
+.ub-next-chap-view {
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  overflow: hidden;
+}
+
+.ub-chap-num-tag {
+  position: absolute;
+  top: 36%;
+  left: 5.5rem;
+  font-family: var(--font-sans-bold);
+  font-size: 0.8rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  z-index: 15;
+}
+
+/* Giant Marquee across screen */
+.ub-marquee-container {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  user-select: none;
+  z-index: 2;
+}
+
+.ub-marquee-track {
+  display: flex;
+  align-items: center;
+  animation: ubMarquee 35s linear infinite;
+  will-change: transform;
+}
+
+@keyframes ubMarquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.ub-marquee-text {
+  font-family: var(--font-serif);
+  font-size: clamp(6rem, 15vw, 13.5rem);
+  line-height: 1;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 0 1rem;
+  display: inline-flex;
+  align-items: center;
+}
+
+.ub-marquee-dot {
+  display: inline-block;
+  font-size: clamp(4rem, 9vw, 8rem);
+  margin: 0 1.5rem;
+  line-height: 0;
+  vertical-align: middle;
+}
+
+/* Central Circular Avatar */
+.ub-next-avatar-wrapper {
+  position: relative;
+  z-index: 10;
+  width: 17rem;
+  height: 17rem;
+  border-radius: 50%;
+  background: #ebebeb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.ub-next-avatar-inner-circle {
+  position: absolute;
+  width: 13rem;
+  height: 13rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.ub-next-avatar-lottie {
+  width: 19rem;
+  height: 19rem;
+  transform: scale(1.15) translateY(0.5rem);
+}
+
+/* SEE CHAPTER BUTTON */
+.ub-see-chap-btn-wrap {
+  position: absolute;
+  bottom: 5.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 15;
+}
+
+.ub-see-chap-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.85rem 2.8rem;
+  border-radius: 9999px;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  background: #ffffff;
+  color: #111111;
+  font-family: var(--font-sans-bold);
+  font-size: 0.72rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.ub-see-chap-btn:hover {
+  transform: translateY(-2px);
+  border-color: currentColor;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* ==========================================================================
+   VIEW 3: ALL CHAPTERS FULLSCREEN MODAL (Screenshot 3)
+   ========================================================================== */
+.ub-modal-chapters {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  overflow-y: auto;
+  overflow-x: hidden;
+  transition: background-color 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.ub-modal-top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.5rem 2.5rem 1.5rem;
+  position: relative;
+  z-index: 10;
+}
+
+.ub-modal-close-btn {
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-right: 1.5rem;
+}
+
+.ub-modal-close-btn:hover {
+  transform: rotate(90deg) scale(1.05);
+  border-color: #000000;
+  background: rgba(0, 0, 0, 0.03);
+}
+
+/* Stacked Chapter List */
+.ub-modal-list {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 3rem;
+}
+
+.ub-modal-row {
+  width: 100%;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  padding: 1.25rem 2.5rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  text-decoration: none;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  overflow: hidden;
+}
+
+.ub-modal-row:last-child {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.ub-modal-row-badge {
+  font-family: var(--font-sans-bold);
+  font-size: 0.72rem;
+  width: 2.2rem;
+  height: 1.4rem;
+  border-radius: 9999px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2rem;
+  flex-shrink: 0;
+  color: #111111;
+  transition: border-color 0.3s ease;
+}
+
+.ub-modal-row-title {
+  font-family: var(--font-serif);
+  font-size: clamp(3.5rem, 8.5vw, 7.5rem);
+  line-height: 0.95;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: inherit;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), letter-spacing 0.4s ease;
+}
+
+.ub-modal-row:hover .ub-modal-row-title {
+  transform: translateX(1.5rem);
+  letter-spacing: 0.01em;
+}
+
+.ub-modal-row-avatar-preview {
+  position: absolute;
+  right: 6rem;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  opacity: 0;
+  transform: scale(0.6);
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.ub-modal-row:hover .ub-modal-row-avatar-preview {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* ==========================================================================
+   VIEW 4: CHAPTER READING EXPERIENCE (Screenshot 4 - Successful People)
+   ========================================================================== */
+.ub-chapter-read-view {
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  background-color: var(--theme-bg, #cce1e8);
+  color: var(--theme-color, #016c8f);
+  padding: 8rem 4rem 10rem;
+  display: flex;
+  flex-direction: column;
+  transition: background-color 0.6s ease, color 0.6s ease;
+}
+
+.ub-read-hero-section {
+  max-width: 82rem;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.ub-read-paragraph {
+  font-family: var(--font-sans-bold);
+  font-size: clamp(1.75rem, 3.2vw, 3.1rem);
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  margin-bottom: 5rem;
+  max-width: 76rem;
+}
+
+.ub-read-sentence {
+  transition: color 0.4s ease, opacity 0.4s ease;
+  display: inline;
+  cursor: pointer;
+}
+
+.ub-read-sentence.active {
+  color: var(--theme-color, #016c8f);
+  opacity: 1;
+}
+
+.ub-read-sentence.faded {
+  color: var(--theme-color, #016c8f);
+  opacity: 0.28;
+}
+
+.ub-read-sentence:hover {
+  opacity: 0.85;
+}
+
+/* Quote Section */
+.ub-read-quote-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: auto;
+  max-width: 38rem;
+  position: relative;
+}
+
+.ub-quote-divider {
+  width: 10rem;
+  height: 1px;
+  background-color: currentColor;
+  margin-bottom: 1.5rem;
+  opacity: 0.6;
+}
+
+.ub-quote-text {
+  font-family: var(--font-sans);
+  font-size: 1.15rem;
+  line-height: 1.5;
+  color: currentColor;
+  opacity: 0.9;
+  letter-spacing: -0.01em;
+}
+
+/* Chapter Narration Player Bar */
+.ub-audio-narration-bar {
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1rem 1.5rem;
+  border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(10px);
+  width: fit-content;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.ub-audio-play-btn {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background: currentColor;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+  transition: transform 0.2s ease;
+}
+
+.ub-audio-play-btn:hover {
+  transform: scale(1.08);
+}
+
+.ub-audio-time {
+  font-family: var(--font-sans-bold);
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+}
+
+.ub-audio-progress-track {
+  width: 14rem;
+  height: 3px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 9999px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+
+.ub-audio-progress-fill {
+  height: 100%;
+  background: currentColor;
+  transition: width 0.1s linear;
+}
+
+/* ==========================================================================
+   NEXT CHAPTER BOTTOM TEASER
+   ========================================================================== */
+.ub-next-teaser-section {
+  margin-top: 8rem;
+  padding-top: 5rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.ub-next-teaser-header {
+  font-family: var(--font-sans-bold);
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ==========================================================================
+   BOTTOM CONTROLS (Always Present)
+   ========================================================================== */
+.ub-bottom-controls {
+  position: fixed;
+  bottom: 2.5rem;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2.5rem;
+  z-index: 50;
+  pointer-events: none;
+}
+
+.ub-bottom-controls * {
+  pointer-events: auto;
+}
+
+/* ALL CHAPTERS Trigger (Bottom Left) */
+.ub-trg-modalchap {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.85rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: inherit;
+  padding: 0.5rem;
+}
+
+.ub-trg-squares {
+  display: grid;
+  grid-template-columns: repeat(2, 4px);
+  grid-template-rows: repeat(3, 4px);
+  gap: 3px;
+  width: 11px;
+  height: 18px;
+}
+
+.ub-trg-square {
+  width: 4px;
+  height: 4px;
+  background-color: currentColor;
+  border-radius: 1px;
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.ub-trg-modalchap:hover .ub-trg-square:nth-child(1) { transform: translateY(-3px); }
+.ub-trg-modalchap:hover .ub-trg-square:nth-child(2) { transform: translateY(3px); }
+.ub-trg-modalchap:hover .ub-trg-square:nth-child(3) { transform: translateY(-2px); }
+.ub-trg-modalchap:hover .ub-trg-square:nth-child(4) { transform: translateY(2px); }
+.ub-trg-modalchap:hover .ub-trg-square:nth-child(5) { transform: translateY(-3px); }
+.ub-trg-modalchap:hover .ub-trg-square:nth-child(6) { transform: translateY(3px); }
+
+.ub-trg-text {
+  font-family: var(--font-sans-bold);
+  font-size: 0.725rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: inherit;
+}
+
+/* Sound Button (Bottom Right) */
+.ub-button-sound {
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 50%;
+  border: 1px solid currentColor;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: inherit;
+  transition: transform 0.25s ease, border-color 0.3s ease;
+  position: relative;
+}
+
+.ub-button-sound:hover {
+  transform: scale(1.08);
+}
+
+.ub-sound-bars {
+  display: flex;
+  align-items: center;
+  gap: 2.5px;
+  height: 12px;
+}
+
+.ub-sound-bar {
+  width: 2px;
+  background-color: currentColor;
+  border-radius: 1px;
+  height: 4px;
+  transition: height 0.2s ease;
+}
+
+.ub-sound-bars.playing .ub-sound-bar:nth-child(1) { animation: soundBar 0.8s ease-in-out infinite alternate; }
+.ub-sound-bars.playing .ub-sound-bar:nth-child(2) { animation: soundBar 1.1s ease-in-out infinite 0.2s alternate; }
+.ub-sound-bars.playing .ub-sound-bar:nth-child(3) { animation: soundBar 0.7s ease-in-out infinite 0.4s alternate; }
+.ub-sound-bars.playing .ub-sound-bar:nth-child(4) { animation: soundBar 0.9s ease-in-out infinite 0.1s alternate; }
+
+@keyframes soundBar {
+  0% { height: 3px; }
+  100% { height: 14px; }
+}
+
+/* Mode Switcher Pills (Top Floating for Demo & Seamless Switch between Screenshot Views) */
+.ub-view-switcher {
+  position: fixed;
+  top: 1.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 9999px;
+  padding: 0.25rem;
+  z-index: 60;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.ub-view-tab {
+  border: none;
+  background: transparent;
+  padding: 0.4rem 0.9rem;
+  border-radius: 9999px;
+  font-family: var(--font-sans-bold);
+  font-size: 0.65rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #666;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.ub-view-tab.active {
+  background: #111;
+  color: #fff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .ub-nav {
+    padding: 0 1.25rem;
+    height: 4.5rem;
+  }
+  .ub-nav-center {
+    display: none;
+  }
+  .ub-marquee-text {
+    font-size: 4rem;
+  }
+  .ub-read-paragraph {
+    font-size: 1.5rem;
+  }
+  .ub-bottom-controls {
+    padding: 0 1.25rem;
+    bottom: 1.5rem;
+  }
+}
