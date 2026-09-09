@@ -33,7 +33,7 @@ export default function Sidebar({ isOpen, onClose }) {
       <aside className={`app-sidebar ${isOpen ? 'open' : ''} lg:transform-none`}>
         {/* Logo area */}
         <div className="mb-8 pb-6 border-b border-white/10">
-          <h2 className="font-display font-bold text-xl gradient-text">MediKiosk</h2>
+          <h2 className="font-display font-bold text-xl gradient-text">MEDU VADA</h2>
           <p className="text-xs text-white/30 mt-1">Pre-Consultation Workflow</p>
         </div>
 

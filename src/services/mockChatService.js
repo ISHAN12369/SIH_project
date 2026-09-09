@@ -13,7 +13,7 @@ const RED_FLAG_KEYWORDS = [
 const BASE_QUESTIONS = [
   {
     id: 'q1',
-    text: 'Hello! I\'m MediKiosk, your digital health assistant. What brings you in today? Please describe your main concern.',
+    text: 'Hello! I\'m Dr. MEDU VADA, your digital health assistant. What brings you in today? Please describe your main concern.',
     type: 'text', // 'text' | 'voice' | 'chips'
     inputHint: 'Describe your symptoms or reason for visit...',
   },

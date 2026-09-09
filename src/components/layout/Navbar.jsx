@@ -31,7 +31,7 @@ export default function Navbar({ onToggleSidebar }) {
           onClick={() => navigate('/')}
           className="font-display font-bold text-lg gradient-text cursor-pointer"
         >
-          MediKiosk
+          MEDU VADA
         </div>
       </div>
 

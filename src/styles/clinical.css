@@ -8,15 +8,15 @@
 
 /* Outer Shell for Health Modules */
 .ub-clinical-shell {
-  min-height: 100vh;
+  min-height: auto;
   width: 100%;
-  padding: 7rem 2rem 8rem;
-  background-color: var(--theme-bg, #d6e2de);
+  padding: 3.5rem 2rem 7rem;
+  background-color: transparent !important;
   color: var(--theme-color, #35705b);
   display: flex;
   flex-direction: column;
   align-items: center;
-  transition: background-color 0.5s ease, color 0.5s ease;
+  transition: color 0.4s ease;
 }
 
 .ub-clinical-card {

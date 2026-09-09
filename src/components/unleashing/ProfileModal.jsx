@@ -25,7 +25,7 @@ export default function ProfileModal({ isOpen, onClose }) {
     if (saved) {
       try {
         setProfile(JSON.parse(saved));
-      } catch (e) {}
+      } catch (e) { }
     }
   }, []);
 

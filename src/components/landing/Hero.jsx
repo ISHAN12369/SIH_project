@@ -94,7 +94,7 @@ export default function Hero() {
           ref={headlineRef}
           className="font-display font-bold text-hero leading-[1.05] tracking-tight mb-6"
         >
-          MediKiosk
+          MEDU VADA
         </h1>
 
         {/* Subtitle */}

@@ -119,7 +119,7 @@ export default function LandingPage() {
       {/* Footer */}
       <footer className="py-8 px-4 border-t border-white/5 text-center">
         <p className="text-sm text-white/30">
-          © 2024 MediKiosk · Built for Smart India Hackathon
+          © 2024 MEDU VADA · Built for Smart India Hackathon
         </p>
       </footer>
     </div>
