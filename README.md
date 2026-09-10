@@ -1,6 +1,7 @@
 # MEDU VADA 🩺
 ### Adaptive AI-Powered Pre-Consultation Kiosk & Clinical Intake Assistant
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_App-0284c7?style=for-the-badge&logo=googlechrome&logoColor=white)](https://ishan12369.github.io/SIH_project/)
 [![Vite](https://img.shields.io/badge/Vite-8.2-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![React](https://img.shields.io/badge/React-19.2-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
@@ -8,6 +9,9 @@
 [![GSAP](https://img.shields.io/badge/GSAP-Motion-88CE02?style=for-the-badge&logo=greensock&logoColor=white)](https://greensock.com/gsap/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
+🔗 **Live Deployment**: **[https://ishan12369.github.io/SIH_project/](https://ishan12369.github.io/SIH_project/)**
+
+> 🚀 **Experience the Live App**: Click the link above to interact with the pre-consultation kiosk directly in your browser.  
 > **Core Clinical Principle**: *AI Drafts • Physician Verifies • Never Autonomous*
 
 ---
@@ -214,4 +218,5 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 ## 👥 Authors & Acknowledgments
 
 Developed with ❤️ for **Smart India Hackathon (SIH)**.
+- **Live Demo**: [https://ishan12369.github.io/SIH_project/](https://ishan12369.github.io/SIH_project/)
 - **Repository**: [ISHAN12369/SIH_project](https://github.com/ISHAN12369/SIH_project)
